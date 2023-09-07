@@ -278,7 +278,7 @@
   .banner-section h2{font-size: 28px;margin: 0px 22% 2%;padding-left: 0;}
   .banner-section p{font-size: 15px;margin: 0px 13%  8%;}
   .hero-content{ text-align:center; }
-  .height {min-height: vh;}
+  .height {min-height: 50vh;}
   .banner-model{display: none;}
   .banner-btn {font-size: 12px;}
   .banner-btn-one{font-size: 12px;}
