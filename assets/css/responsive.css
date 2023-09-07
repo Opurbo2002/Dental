@@ -201,7 +201,7 @@
   	.offcanvas-header {background-image: linear-gradient(178deg, #f69165, #00cce1);}
 
   	.nav-link {font-weight:500;color: #00cce1;}
-  	.appoint {clip-path:none;width: 50%;margin: 20px auto;}
+  	.appoint {clip-path:none;margin: 20px auto;}
   	.appoint:hover {background-color: #00cce1; }
   	.navbar-nav { border-bottom: 1px solid #f69165;		padding-bottom: 20px;    flex-direction: row;    gap: 0px !important; }
   	.nav-item{margin: 15px auto;}
