@@ -4,7 +4,7 @@
 	.banner-section h1{font-size: 55px;margin-right: -70px;}
 	.banner-section h2{font-size: 55px;margin-right: 70px;}
 	.banner-section p{font-size: 18px;margin: 20px 0 50px 0;}
-	.banner-model{width: 80%;right: -40%;}
+	.banner-model{width: 55%;right: -20%;}
 	.banner-carousol .owl-nav button.owl-prev span {font-size: 50px;height: 50px;width: 50px;line-height: 50px;}
 	.banner-carousol .owl-nav button.owl-next span {font-size: 50px;height: 50px;width: 50px;line-height: 50px;}
 	.about-model {left: 20%;}
@@ -56,7 +56,7 @@
 	.banner-section h1{font-size: 50px;margin-right: -20px;}
 	.banner-section h2{font-size: 50px;margin-right: 120px;}
 	.banner-section p{font-size: 18px;margin: 20px 0 50px 0;}
-	.banner-model{width: 70%;right: -18%;}
+	.banner-model{width: 50%;right: 0%;}
 	.about-model {left: 12%;}
 }
 
@@ -189,180 +189,245 @@
 
 
 /*Tablet Version*/
-
-@media (max-width:767px){
-	header .navbar{ padding: 20px 0;}
+@media (max-width:991px){
+	header{background-color:#fff;}
+	header .navbar{ padding: 10px 0;}
 	.mb-hide{display: none}
-	.logo-hide{display: block;width: 35%;}
-	.dropdown-hide{display: block;}
-	.appoint-hide{display: none;}
-	.appoint-btn{padding:20px;}
-	.appoint-dsk-hide{display: block;clip-path: none;line-height: 4;width: 165px;margin: 10% 25% 0;margin-top: 10%;}
-	.navbar .nav-item {text-align: center;font-size: 15px;margin-top: 30px;}
-	.nav-link{text-transform: uppercase;position: relative;display: initial;font-size: 14px;font-weight: 700px;text-align: center;border: 2px solid transparent;padding: 0px;color: #fff;}
-	.dropdown .nav-link:hover{color: #f69165;transition: all 0.3s ease-in-out;}
-	.nav-link:hover{color: #f69165;}
-	.nav-link::before{content:"";position: absolute;left: 0;bottom: -5px;height: 3px;width: 0;background-color: #f69165;transition: all 0.3s ease-in-out;}
-	.nav-link::after{content:"";position: absolute;right: 0;bottom: -5px;height: 3px;width: 0;background-color: #f69165;transition: all 0.3s ease-in-out;}
-	.nav-link:hover::before,.nav-link:hover::after{width: 48%;}
-	.info-description h3{font-weight: 500;color: #fff;}
-	.info-description p{ color:#fff;}
+ 	.logo-hide{display: block;width: 25%;}
+  	.dropdown-hide{display: block;}
+  	.appoint-hide{display: none;}
+  	.appoint-btn{padding:0 20px;}
 
-	.banner-section h1{font-size: 30px;margin: 0px 14% 3%;padding-left: 0;}
-	.banner-section h2{font-size: 28px;margin: 0px 22% 2%;padding-left: 0;}
-	.banner-section p{font-size: 15px;margin: 0px 13%  8%;}
-	.hero-content{ text-align:center; }
-	.height {min-height: 70vh;}
-	.banner-model{display: none;}
-	.banner-btn {font-size: 12px;}
-	.banner-btn-one{font-size: 12px;}
+  	.offcanvas-header {background-image: linear-gradient(178deg, #f69165, #00cce1);}
+
+  	.nav-link {font-weight:500;color: #00cce1;}
+  	.appoint {clip-path:none;width: 50%;margin: 20px auto;}
+  	.appoint:hover {background-color: #00cce1; }
+  	.navbar-nav { border-bottom: 1px solid #f69165;		padding-bottom: 20px;    flex-direction: row;    gap: 0px !important; }
+  	.nav-item{margin: 15px auto;}
+  	.nav-link{text-transform: uppercase;position: relative;display: initial;font-size: 14px;font-weight: 700px;text-align: center;border: 2px solid transparent;padding: 0px;color:#f69165;}
+  	.nav-link::before{content:"";position: absolute;left: 0;bottom: -5px;height: 3px;width: 0;background-color: #f69165;transition: all 0.3s ease-in-out;}
+  	.nav-link::after{content:"";position: absolute;right: 0;bottom: -5px;height: 3px;width: 0;background-color: #f69165;transition: all 0.3s ease-in-out;}
+  	.nav-link:hover::before,.nav-link:hover::after{width: 48%;}
+
+  	.height{ min-height:70vh; }
+  	.banner-section h2 {font-size: 20px;padding-left: 10px;}
+	.banner-section h1 {font-size: 22px;padding-left: 10px;}
+	.banner-section p {font-size: 12px;margin: 20px 0 25px;}
+	.banner-btn {font-size: 12px;padding: 10px 14px;}
+	.banner-btn-one {font-size: 12px;padding: 10px 14px;}
+	.banner-carousol .owl-dots, .owl-theme .owl-nav { bottom: 10%;}
 	.banner-carousol .owl-nav button.owl-prev span,.banner-carousol .owl-nav button.owl-next span{display: none;}
-	.about-model{position: static;margin: 0px auto 10%;width: 60%;}
-	.about-section h1{ font-size: 24px;text-align: center;}
-	.about-section .heading span{text-align: start;margin: 0 auto 6%;}
-	.about-section p{font-size: 13px;text-align: center;margin: 0 10% 8%;}
-	.service-icon1{width: 26px;}
-	.service-info1 h3{font-size: 20px;}
-	.service-info1 p{text-align:start; font-size: 12px;margin: 0;}
-	.team-section h1{font-size: 24px;text-align: center;}
-	.team-section p{font-size: 13px;text-align: center;margin: 0px 10% 8%; padding: 0}
-	.team-member {margin: 0 60px; margin-bottom: 25px}
-	.team-member .person-details h3{font-size: 16px;}
-	.team-member .person-details p{font-size: 14px; margin: 0}
-	.team-member .social-info ul li .fa-brands {font-size: 15px;}
-
-	.service-section h1{font-size: 24px;text-align: center;}
-	.service-section p{font-size: 13px;;margin: 0px 10% 8%; padding: 0}
-	.service-section img {margin: 0px;width: 24px;}
-	.services h3{font-size: 14px;margin: 0px;}
-	.service-info p{font-size: 11px; margin: 10px 0px;}
-	.service-btn {font-size: 11px;margin: 0px;}
-
-
-	.pricing-section h1{font-size: 24px;text-align: center;}
-	.pricing-section p{font-size: 13px;;margin: 0px 10% 8%; padding: 0}
-	.pricing-section .price-table {margin: 30px;}
-	.pricing-section .sign-btn {margin-left: 37%;}
-
-
-	.client-section h1{font-size: 24px;text-align: center;}
-	.client-section p{font-size: 13px;;margin: 0px 10% 8%; padding: 0}
-	.client-carousol .owl-nav button.owl-prev span,.client-carousol .owl-nav button.owl-next span{display: none;}
-	.client-carousol .owl-stage {margin: 0 40px;}
-	.social-mb-hide{display: none;}
-	.social-dsk-hide{display: block;}
-
-	.clinic-detalis img {width: 66%;}
-	.clinic-detalis p {font-size: 11px;margin: 30px auto;}
-	.clinic-icons {font-size: 22px;margin: 0px 0 24px;}
-	.clinic-text h3 {font-size: 11px;margin-left: 6px}
-	.clinic-text p {font-size: 11px;margin-left: 8px;}
-
-	.clients-testimonials h5 {font-size: 28px;}
-	.client-img img{width: 65px;}
-	.clients-post p {font-size: 12px;margin-bottom: -4px;margin-left: 34px;}
-
+	.about-section {padding: 70px 0 0px;;}
+	.about-section h1 { font-size: 26px;}
+	.about-section p {font-size: 12px;padding: 0px 22%;}
+	.service-icon1 {width: 28px;}
+	.service-info1 h3 {font-size: 16px;}
+	.service-info1 p{font-size: 10px;}
+	.about-model {width: 45%;left: 2%;}
+	.team-section h1 {font-size: 26px;}
+	.team-section p {font-size: 12px;padding: 0px 22%;}
 	
-	.newsletter h5 {font-size: 28px;margin-bottom: 14px;}
-	.newsletter p {font-size: 13px;margin-bottom: 16px;margin-right: 0px;}
-	form input {font-size: 11px;width: 68%;padding: 8px;}
-	form input:focus {font-size: 11px;}
-	form input[type="submit"] {font-size: 12px;width: 26%;}
+	.person-img img{ max-width: 80%;height: 160px;}
+	.team-member .person-details h3{font-size: 18px;margin-bottom: 0px;}
+	.team-member .person-details p{font-size:12px;}
+	.team-member .social-info{left:15%}
+	.team-member .social-info ul li .fa-brands {font-size: 12px; width: 25px;height: 25px;line-height: 25px;}
+	.service-section p{font-size: 12px;padding: 0px 22%;}
+	.service-section img {width: 25px;}
+	.services {padding: 10px;margin: 10px;}
+	.services h3{font-size: 15px;}
+	.service-section p {font-size: 10px;padding: 0px;}
+	.service-btn {font-size: 10px;}
+	.pricing-section h1 {font-size: 26px;}
+	.pricing-section p {font-size: 12px;padding: 0px 22%;}
+	.pricing-section .price-table h4 {font-size: 20px;}
+	.pricing-section .price-table p {font-size: 10px;}
+    .pricing-section .price h2 {font-size: 30px;}
+    .pricing-section .price p {font-size: 10px;}
+	.pricing-section .features p {font-size: 9px;}
+	.pricing-section .sign-btn {font-size: 10px;padding: 8px 10px;margin-left: 25%;}
+	.price-table:hover{transform: none;}
+	.client-section h1 {font-size: 26px;}
+	.client-section p {font-size: 12px;padding: 0px 22%;}
+	.client-carousol .owl-stage {margin: 0 25px;}
+	.client-carousol .owl-nav button.owl-prev span, .client-carousol .owl-nav button.owl-next span {display: none;}
+	.contact-section {padding: 50px 0;}
+	.clinic-detalis img {width: 60%;}
+	.clinic-detalis p {font-size: 10px;}
+	.clients-testimonials h5 {font-size: 26px;margin-bottom: 26px;}
+	.client-img img{margin: 0px 0 -12px; width: 67px}
+	.clinic-icons {font-size: 20px;margin: 0px 0 20px;}
+	.clinic-text p { font-size: 10px; margin-left: 6px;}
+	.clinic-text h3 {font-size: 11px;margin-left: 4px;}
+	.clients-post p {font-size: 10px;margin-left: 35px;}
 
-	.social-info2 .fa-brands { width: 30px;height: 30px;line-height: 28px;margin: 3px;}
-	.social-info2 h1 {font-size: 28px; margin-top: 0px;}
-	.social-info2 ul {margin-top: 16px;padding: 0;}
+	.newsletter h5 {font-size: 26px;margin-bottom: 26px;}
+	.newsletter p {font-size: 11px;margin-bottom: 10px; margin-right: 5px;}
+	form input {font-size: 10px;}
+	form input[type="submit"] {font-size: 10px;}
+	.social-info2 h1 {font-size: 16px;margin-top: 30px;}
+	.social-info2 .fa-brands {font-size: 12px;width: 18px;height: 18px;line-height: 18px;margin: 2px;}
+	footer p {font-size: 12px;}
+}
+
+
+
+ @media (max-width:767px){
+  .banner-section h1{font-size: 30px;margin: 0px 14% 3%;padding-left: 0;}
+  .banner-section h2{font-size: 28px;margin: 0px 22% 2%;padding-left: 0;}
+  .banner-section p{font-size: 15px;margin: 0px 13%  8%;}
+  .hero-content{ text-align:center; }
+  .height {min-height: vh;}
+  .banner-model{display: none;}
+  .banner-btn {font-size: 12px;}
+  .banner-btn-one{font-size: 12px;}
+  
+  .about-section{padding: 70px 0;}
+  .about-model{position: static;margin: 0px auto 10%;width: 60%;}
+  .about-section h1{ font-size: 24px;text-align: center;}
+  .about-section .heading span{text-align: start;margin: 0 auto 6%;}
+  .about-section p {font-size: 12px; text-align: center; padding: 0px 10%;}
+  .service-icon1{width: 26px;}
+  .service-info1 h3{font-size: 20px;}
+  .service-info1 p{text-align:start; font-size: 11px;padding: 0;}
+  .team-section h1{font-size: 24px;text-align: center;}
+  .team-section p{font-size: 13px;text-align: center;margin: 0px 10% 8%; padding: 0}
+  .team-member {margin: 0 60px; margin-bottom: 25px}
+  .team-member .person-details h3{font-size: 16px;}
+  .team-member .person-details p{font-size: 14px; margin: 0}
+  .team-member .social-info ul li .fa-brands {font-size: 15px;width: 45px;height: 45px;line-height: 45px;}
+  .team-member .social-info{left:23%}
+  .person-img img {max-width: 100%;height: auto;}
+
+  .service-section h1{font-size: 24px;text-align: center;}
+  .service-section p{font-size: 13px;;margin: 0px 10% 8%; padding: 0}
+  .service-section img {margin: 0px;width: 24px;}
+  .services h3{font-size: 14px;margin: 0px;}
+  .service-info p{font-size: 11px; margin: 10px 0px;}
+  .service-btn {font-size: 11px;margin: 0px;}
+
+
+  .pricing-section h1{font-size: 24px;text-align: center;}
+  .pricing-section p{font-size: 13px;;margin: 0px 10% 8%; padding: 0}
+  .pricing-section .price-table {margin: 20px 150px;}
+  .pricing-section .sign-btn {margin-left: 31%;}
+
+
+  .client-section h1{font-size: 24px;text-align: center;}
+  .client-section p{font-size: 13px;;margin: 0px 10% 8%; padding: 0}
+  .client-carousol .owl-nav button.owl-prev span,.client-carousol .owl-nav button.owl-next span{display: none;}
+  .client-carousol .owl-stage {margin: 0 40px;}
+  .social-mb-hide{display: none;}
+  .social-dsk-hide{display: block;}
+
+  .clinic-detalis img {width: 66%;}
+  .clinic-detalis p {font-size: 11px;margin: 30px auto;}
+  .clinic-icons {font-size: 22px;margin: 0px 0 24px;}
+  .clinic-text h3 {font-size: 11px;margin-left: 6px}
+  .clinic-text p {font-size: 11px;margin-left: 8px;}
+
+  .clients-testimonials h5 {font-size: 28px;}
+  .client-img img{width: 65px;}
+  .clients-post p {font-size: 12px;margin-bottom: -4px;margin-left: 34px;}
+
+  
+  .newsletter h5 {font-size: 28px;margin-bottom: 14px;}
+  .newsletter p {font-size: 13px;margin-bottom: 16px;margin-right: 0px;}
+  form input {font-size: 11px;width: 68%;padding: 8px;}
+  form input:focus {font-size: 11px;}
+  form input[type="submit"] {font-size: 12px;width: 26%;}
+
+  .social-info2 .fa-brands { width: 30px;height: 30px;line-height: 28px;margin: 3px;}
+  .social-info2 h1 {font-size: 28px; margin-top: 0px;}
+  .social-info2 ul {margin-top: 16px;padding: 0;}
 }
 
 
 /*Mobile Version*/
 @media (max-width:575px){
-	.banner-carousol .owl-nav button.owl-prev span,.banner-carousol .owl-nav button.owl-next span{display: none;}
-	.service-icon1{width: 26px; margin: 0 auto 20px}
-	.service-info1 h3{font-size: 20px;text-align: center;}
-	.service-info1 p{text-align:center; font-size: 12px;margin: 0 90px;}
-	.team-member {margin: 0 80px 30px;}
-	.services {margin: 0px 85px 20px;padding: 20px 0 20px 55px;}
-	.service-section img {width: 30px;}
-	.services h3 {font-size: 18px;}
-	.service-info p {font-size: 14px;}
-	.pricing-section .price-table {margin: 30px 80px;}
-	.price-table:hover{transform: none;}
-	.client-carousol .owl-nav button.owl-prev span,.client-carousol .owl-nav button.owl-next span{display: none;}
-	.clinic-detalis{text-align: center;}
-	.clinic-detalis img {width: 50%;}
-	.clinic-detalis p {font-size: 16px;}
-	.client-img {margin: 10px 0;}
-	.client-img img {width: 85px;}
-	.clinic-icons {font-size: 30px; margin: 10px auto;text-align: center;}
-	.clinic-text {margin-left: 0;text-align: center;}
-	.clinic-text h3 {margin: 5px 0;}
-	.clinic-text p {margin: none;}
-	.clients-post p {font-size: 18px;margin: 0}
-	.newsletter h5 {font-size: 30px;margin: 60px 0px 20px;}
-	.social-dsk-hide {margin: 80px 0px 0;text-align: center;}
-	form input {margin: 0 35px;}
-	.pb-60{padding-bottom: 60px}
-	footer p {font-size: 14px;}
+  .banner-carousol .owl-nav button.owl-prev span,.banner-carousol .owl-nav button.owl-next span{display: none;}
+  .service-icon1{width: 26px; margin: 0 auto 20px}
+  .service-info1 h3{font-size: 20px;text-align: center;}
+  .service-info1 p{text-align:center; font-size: 12px;margin: 0 90px;}
+  .team-member {margin: 0 80px 30px;}
+  .services {margin: 0px 85px 20px;padding: 20px 0 20px 55px;}
+  .service-section img {width: 30px;}
+  .services h3 {font-size: 18px;}
+  .service-info p {font-size: 14px;}
+  .client-carousol .owl-nav button.owl-prev span,.client-carousol .owl-nav button.owl-next span{display: none;}
+  .clinic-detalis{text-align: center;}
+  .clinic-detalis img {width: 50%;}
+  .clinic-detalis p {font-size: 16px;}
+  .client-img {margin: 10px 0;}
+  .client-img img {width: 85px;}
+  .clinic-icons {font-size: 30px; margin: 10px auto;text-align: center;}
+  .clinic-text {margin-left: 0;text-align: center;}
+  .clinic-text h3 {margin: 5px 0;}
+  .clinic-text p {margin: none;}
+  .clients-post p {font-size: 18px;margin: 0}
+  .newsletter h5 {font-size: 30px;margin: 60px 0px 20px;}
+  .social-dsk-hide {margin: 80px 0px 0;text-align: center;}
+  form input {margin: 0 35px;}
+  .pb-60{padding-bottom: 60px}
+  footer p {font-size: 14px;}
 }
+
+
 @media (max-width:425px){
-	.banner-section h2 { font-size: 22px;}
-	.banner-section h1 {font-size: 24px;}
-	.banner-section p { font-size: 12px; margin: 0 8% 8%;}
-	.banner-btn {font-size: 10px;}
-	.banner-btn-one{font-size: 10px}
-	.about-section p {font-size: 12px;margin: 0 0 8%;}
-	.team-section p {font-size: 12px;margin: 0 0 8%;}
-	.team-member {margin: 0px 40px 30px;}
-	.team-member .social-info {left: 20%;}
-	.service-section p {font-size: 12px;margin: 0 0 8%;} 
-	.services {margin: 20px;padding: 20px 0 20px 45px;}
-	.pricing-section p {font-size: 12px;margin: 0 0 8%;}
-	.pricing-section .price-table {margin: 30px 40px;}
-	.pricing-section .price-table h4 {font-size: 30px;}
-	.pricing-section .price-table p {font-size: 12px;}
-	.pricing-section .price h2 {font-size: 46px;}
-	.pricing-section .sign-btn {font-size: 13px;margin-left: 33%;}
-	.pricing-section .price p {font-size: 12px;}
-	.pricing-section .features p {font-size: 14px;}
-	.client-section p {font-size: 12px;margin: 0 0 8%;}
-	footer p {font-size: 12px;;}
+  .banner-section h2 { font-size: 22px;}
+  .banner-section h1 {font-size: 24px;}
+  .banner-section p { font-size: 12px; margin: 0 8% 8%;}
+  .banner-btn {font-size: 10px;}
+  .banner-btn-one{font-size: 10px}
+  .about-section p {font-size: 12px;margin: 0 0 8%;}
+  .team-section p {font-size: 12px;margin: 0 0 8%;}
+  .team-member {margin: 0px 40px 30px;}
+  .team-member .social-info {left: 15%;}
+  .service-section p {font-size: 12px;margin: 0 0 8%;} 
+  .services {margin: 20px;padding: 20px 0 20px 45px;}
+  .pricing-section p {font-size: 12px;margin: 0 0 8%;}
+  .pricing-section .price-table {margin: 30px 40px;}
+  .pricing-section .price-table h4 {font-size: 30px;}
+  .pricing-section .price-table p {font-size: 12px;}
+  .pricing-section .price h2 {font-size: 46px;}
+  .pricing-section .sign-btn {font-size: 13px;margin-left: 33%;}
+  .pricing-section .price p {font-size: 12px;}
+  .pricing-section .features p {font-size: 14px;}
+  .client-section p {font-size: 12px;margin: 0 0 8%;}
+  footer p {font-size: 12px;}
 }
 
 
 @media (max-width:375px){
-	.banner-section h2 { font-size: 20px;}
-	.banner-section h1 {font-size: 20px;}
-	.banner-section p { font-size: 11px; margin: 0 8% 8%;}
-	.about-section p{font-size: 11px}
-	.team-section p {font-size: 11px;}
-	.team-member .social-info {left: 14%;}
-	.service-section p {font-size: 11px;} 
-	.pricing-section p {font-size: 11px;}
-	.pricing-section .price-table h4 {font-size: 26px;}
-	.pricing-section .price h2 {font-size: 36px;}
-	.pricing-section .features p {font-size: 12px;}
-	.pricing-section .sign-btn {font-size: 12px;margin-left: 30%;}
-	.client-section p {font-size: 11px;}
-	footer p {font-size: 10px;;}
+  .banner-section h2 { font-size: 20px;}
+  .banner-section h1 {font-size: 20px;}
+  .banner-section p { font-size: 11px; margin: 0 8% 8%;}
+  .about-section p{font-size: 11px}
+  .team-section p {font-size: 11px;}
+  .team-member .social-info {left: 14%;}
+  .service-section p {font-size: 11px;} 
+  .pricing-section p {font-size: 11px;}
+  .pricing-section .price-table h4 {font-size: 26px;}
+  .pricing-section .price h2 {font-size: 36px;}
+  .pricing-section .features p {font-size: 12px;}
+  .pricing-section .sign-btn {font-size: 12px;margin-left: 30%;}
+  .client-section p {font-size: 11px;}
+  footer p {font-size: 10px;;}
 }
 
 @media (max-width:325px){
-	.banner-section h2 { font-size: 17px;}
-	.banner-section h1 {font-size: 18px;}
-	.banner-section p { font-size: 11px;margin: 0 0% 8%;}
-	.banner-btn {font-size: 10px;padding: 10px 14px;}
-	.banner-btn-one{font-size: 10px;padding: 10px 14px;}
-	.team-member {margin: 0px 5px 30px;}
-	.services {padding: 20px 0 20px 20px;}
-	.pricing-section .price-table h4 {font-size: 24px;}
-	.pricing-section .price-table p {font-size: 10px;}
-	.pricing-section .price h2 {font-size: 32px;}
-	.pricing-section .price p {font-size: 10px;}
-	.pricing-section .features p {font-size: 10px;}
-	.pricing-section .sign-btn {font-size: 10px;margin-left: 25%;padding: 10px 16px;;}
+  .banner-section h2 { font-size: 17px;}
+  .banner-section h1 {font-size: 18px;}
+  .banner-section p { font-size: 11px;margin: 0 0% 8%;}
+  .banner-btn {font-size: 10px;padding: 10px 14px;}
+  .banner-btn-one{font-size: 10px;padding: 10px 14px;}
+  .team-member {margin: 0px 5px 30px;}
+  .services {padding: 20px 0 20px 20px;}
+  .pricing-section .price-table h4 {font-size: 24px;}
+  .pricing-section .price-table p {font-size: 10px;}
+  .pricing-section .price h2 {font-size: 32px;}
+  .pricing-section .price p {font-size: 10px;}
+  .pricing-section .features p {font-size: 10px;}
+  .pricing-section .sign-btn {font-size: 10px;margin-left: 25%;padding: 10px 16px;;}
 }
-
-
-
-
